@@ -5,7 +5,7 @@ HTML 학습 내용을 정리하는 곳이다.
 Notion으로 정리한 것을 올림.
 
 1. 기본 HTML 구성
-2. <body>
+2. \<\body\>\
 </pre>
 
 ## Notion 링크
