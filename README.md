@@ -6,6 +6,7 @@ Notion으로 정리한 것을 올림.
 
 1. 기본 HTML 구성
 2. body
+3. style
 </pre>
 
 ## Notion 링크
