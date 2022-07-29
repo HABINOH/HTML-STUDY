@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리스트</title>
+</head>
+<body>
+    <h1>리스트</h1>
+    <h2>비순차 목록 Unordered List</h2>
+    <ul>
+        <li>list item1</li>
+        <li>list item2</li>
+        <li>list item3</li>
+        <li>list item4</li>
+    </ul>
+    <h2>순차 목록 Ordered List</h2>
+    <ol>
+        <li>list item1</li>
+        <li>list item2</li>
+        <li>list item3</li>
+        <li>list item4</li>
+    </ol>
+    <h2>정의 목록 Definition List</h2>
+    <dl>
+        <dt>Definition term - 용어정의, 제목성격</dt>
+        <dd>Definition description - 용어 설명</dd>
+        <dd>Definition description - 용어 설명</dd>
+        <dd>Definition description - 용어 설명</dd>
+    </dl>
+
+    <hr>
+    <h2>주의점</h2>
+    <ul>
+        <li>list item1</li>
+    </ul>
+    <ul>
+        <li>list item1</li>
+    </ul>
+    <ul>
+        <li>list item1</li>
+    </ul>
+    <ul> <!--ul 자식요소는 무조건 li만 올 수 있음-->
+        <h3>title</h3> <!--오류-->
+        <li>list item1</li>
+        <li>list item2</li>
+    </ul>
+    <ul> <!--밑 코드 정상적 작동 (ul위에 작성해도 정상)-->
+        <li><h3>title</h3>list item1</li>
+        <li>list item2</li>
+    </ul>
+    <dl> <!--정상-->
+        <dt>Definition term - 용어정의, 제목성격</dt>
+        <dd>Definition description - 용어 설명</dd>
+        <dt>Definition term - 용어정의, 제목성격</dt>
+        <dd>Definition description - 용어 설명</dd>
+        <dt>Definition term - 용어정의, 제목성격</dt>
+        <dd>Definition description - 용어 설명</dd>
+    </dl>
+    <dl> <!--바람직X (용어와 정의 갯수는 같아야함))-->
+        <dt>Definition term - 용어정의, 제목성격</dt>
+        <dt>Definition term - 용어정의, 제목성격</dt>
+        <dd>Definition description - 용어 설명</dd>
+    </dl>
+
+    <hr>
+    <ol start="5" type="I"> <!--(type=1,A,I) 법조항, 약관 ~~ -->
+        <li>list item1</li>
+        <li>list item2</li>
+        <li>list item3</li>
+        <li>list item4</li>
+    </ol>
+
+    <hr>
+    <h2>메뉴</h2>
+    <ul>
+        <li>About us
+            <ul>
+                <li>vision</li>
+                <li>history</li>
+                <li>location
+                    <ul>
+                        <li>seoul</li>
+                        <li>jeju</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Works</li>
+        <li>Service</li>
+        <li>Contact us</li>
+    </ul>
+
+    <ul> <!--서브메뉴 구조적 중요 사항!-->
+        <li><a href="">About us</a>
+            <ul>
+                <li>Ceo greeting</li>
+                <li>History</li>
+                <li>Vision</li>
+            </ul>
+        </li>
+        <li>Latest works
+            <ul>
+                <li>Web design</li>
+                <li>Mobile App</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
