@@ -10,6 +10,7 @@ Notion으로 정리한 것을 올림.
 4. p 텍스트 서식
 5. HTML 인용문
 6. HTML 주석
+7. HTML CSS
 </pre>
 
 ## Notion 링크
