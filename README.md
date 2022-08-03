@@ -12,6 +12,7 @@ Notion으로 정리한 것을 올림.
 6. HTML 주석
 7. HTML CSS
 8. HTML Link
+9. HTML 이미지
 </pre>
 
 ## Notion 링크
