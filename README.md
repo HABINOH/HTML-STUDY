@@ -24,6 +24,7 @@ Notion으로 정리한 것을 올림.
 7. HTML CSS
 8. HTML Link
 9. HTML 이미지
+10. HTML 파비콘
 </pre>
 
 ## Notion 링크
