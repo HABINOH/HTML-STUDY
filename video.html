@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h1>multimedia</h1>
+    <h2>video</h2>
+    <video src="sample_640x360.mp4" muted controls 
+    poster="../food.jpg"></video>
+    <!--외부 트래픽 서버 : cloudinary.com (무료)-->
+    
+    <!--youtube 공유 -> 퍼가기 -> iframe 소스 복사 -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPdk5GaIDjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    
+    <!--vimeo 사이트 참고해서 영상 가져오기(종이비행기 클릭)-->
+    <!--
+        <video muted controls autoplay>
+        <source src="sample_640x360.mp4" type="video/mp4">
+        <source src="sample_640x360.ogv" type="video/ogv">
+        <source src="sample_640x360.webM" type="video/webM">
+        <p>fallback contents 대체내용</p>
+        </video>
+    -->
+    <!--video 속성
+    src 경로, controls 재생버튼들, width, height
+    autoplay 자동재생, muted 음소거
+    poster 재생 전 대표 이미지, loop 반복 재생-->
+
+    <hr>
+    <h2>audio</h2>
+    <audio src="" controls></audio>
+    <!--video 사용법과 똑같음
+    속성 preload="auto", "none" : auto가 빠름-->
+</body>
+</html>
