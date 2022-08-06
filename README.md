@@ -8,7 +8,7 @@ list : ul, ol, dl
 
 table : figure(테이블 설명), figcaption, table, colgroup, thead, tbody, tfoot, tr, th
 
-
+video : video, iframe, audio
 
 </pre>
 <pre>
@@ -25,6 +25,7 @@ Notion으로 정리한 것을 올림.
 8. HTML Link
 9. HTML 이미지
 10. HTML 파비콘
+11. HTML Table
 </pre>
 
 ## Notion 링크
