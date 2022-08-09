@@ -32,3 +32,4 @@ Notion으로 정리한 것을 올림.
 ## Notion 링크
 
 #### https://www.notion.so/HTML-5a51c5b5aa19482490b532b698e059bf
+#### <a href="https://www.notion.so/HTML-5a51c5b5aa19482490b532b698e059bf" target="_blank">Habin Notion</a>
