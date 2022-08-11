@@ -27,6 +27,8 @@ Notion으로 정리한 것을 올림.
 10. HTML 파비콘
 11. HTML Table
 12. HTML List
+13. HTML 블록 및 인라인 요소
+14. HTML 클래스 속성
 </pre>
 
 ## Notion 링크
