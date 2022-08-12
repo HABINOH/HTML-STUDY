@@ -29,6 +29,7 @@ Notion으로 정리한 것을 올림.
 12. HTML List
 13. HTML 블록 및 인라인 요소
 14. HTML 클래스 속성
+15. HTML ID 
 </pre>
 
 ## Notion 링크
