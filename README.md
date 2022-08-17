@@ -10,6 +10,8 @@ table : figure(테이블 설명), figcaption, table, colgroup, thead, tbody, tfo
 
 video : video, iframe, audio
 
+anchor : a, img, map
+
 </pre>
 <pre>
 HTML 학습 내용을 정리하는 곳이다.
@@ -31,7 +33,9 @@ Notion으로 정리한 것을 올림.
 14. HTML 클래스 속성
 15. HTML ID 
 16. HTML iframe
-17. HTML 자바 스크
+17. HTML 자바 스크립트
+18. HTML 헤드요소
+
 </pre>
 
 ## Notion 링크
