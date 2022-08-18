@@ -35,6 +35,7 @@ Notion으로 정리한 것을 올림.
 16. HTML iframe
 17. HTML 자바 스크립트
 18. HTML 헤드요소
+19. HTML 레이아웃 요소 및 기술
 
 </pre>
 
