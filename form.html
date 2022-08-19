@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        button{
+            background:none;
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    <h1>회원가입</h1>
+
+    <form action="join.html" method="POST"> <!--유효성 검사 끄기 novalidate-->
+    <fieldset>
+        <legend>필수입력</legend>
+        <p>
+            <label for="username">이름 : </label>
+            <input type="text" id="username" 
+            name="username" required="required"
+            minlength="2" maxlength="5"
+            placeholder="이름을 입력하세요"> <!--size 너비는 CSS에서-->
+        </p><p>
+            <label for="useremail">이메일 : </label>
+            <input type="email" id="useremail" name="useremail" required>
+        </p>
+        </p><p>
+            <label for="userpass">비밀번호 : </label>
+            <input type="password" id="userpass" name="userpass" required>
+        </p>    
+    </fieldset>
+    <fieldset>
+        <legend>부가 입력</legend>
+        <div>
+            <lable for="address">거주지를 선택해주세요</lable>
+            <select name="address" id="address">
+                <option value="서울시">서울시</option>
+                <option value="경기도">경기도</option>
+                <option value="제주시">제주시</option>
+                <option value="대구시">대구시</option>
+            </select>
+        </div>
+        <div>
+            <h3>성별을 선택해주세요.</h3>
+            <lable for="men">남성</lable>
+            <input type="radio" id="men" name="gender" value="남성">
+            
+            <lable for="women">여성</lable>
+            <input type="radio" id="women" name="gender" value="여성">
+        </div>
+        <div>
+            <h3>관심사항 체크</h3>
+            <lable for="HTML">HTML</lable>
+            <input type="checkbox" id="HTML" name="interest" value="HTML">
+            
+            <lable for="CSS">CSS</lable>
+            <input type="checkbox" id="CSS" name="interest" value="CSS">
+            
+            <lable for="JAVASCRIPT">Javascript</lable>
+            <input type="checkbox" id="JAVASCRIPT" name="interest" value="JAVASCRIPT">
+        </div>
+        <div>
+            <h3>인사말</h3>
+            <label for="intro"></label>
+            <textarea id="intro" name="intro" rows="8" cols="30"></textarea>
+        </div>
+        <div>
+            <label for="proimage">프로필 이미지 등록</label><br>
+            <input type="file" id="proimage" name="proimage" accept=".jpg, .jpeg, .png, .jfif">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>HTML5 새로운 타입</legend>
+        <div>
+            <label for="website">website</label>
+            <input type="url" id="website" name="website">
+        </div>
+        <div>
+            <label for="birth">생년월일</label>
+            <input type="date" id="birth" name="birth">
+        </div>
+        <div>
+            <label for="langs">학습할 언어 선택</label>
+            <input type="text" id="langs" name="langs" list="mylist">
+            <datalist id="mylist">
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="javascript">javascript</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="career">경력기간</label>
+            <input type="number" id="career" name="career" min="0" max="10" value="1"><!--step="2"-->
+        </div>
+        <div>
+            <label for="language">학습할 언어 선택</label>
+            <select name="language" id="language">
+                <optgroup label="frontend">
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                    <option value="javascript">javascript</option>
+                </optgroup>
+                <optgroup label="backend">
+                    <option value="asp">asp</option>
+                    <option value="jsp">jsp</option>
+                    <option value="php">php</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="skill">숙련도</label>
+            <input type="range" id="skill" name="skill" min="0" max="10" value="5">
+        </div>
+        <!--pattern (cleave.js 사이트 참고)-->
+        <div>
+            <label for="phone">phone</label>
+            <input type="text" id="phone" name="phone" pattern="[0-9]{1,11}"
+            title="숫자만 최대 11자리까지 입력해주세요.">
+        </div>
+        <div>
+            <lable for="useremails">이메일 선택</lable>
+            <input type="text" id="useremails" name="useremails">@
+            <select title="이메일 서비스 선택" multiple size="1"> <!--multiple 다중 선택-->
+                <option value="직접입력">직접입력</option>
+                <option value="naver.com">naver.com</option>
+                <option value="daum.net">daum.net</option>
+                <option value="gmail.com">gmail.com</option>
+            </select>
+        </div>
+    </fieldset>
+    
+<p>
+    <input type="submit" value="전송">
+    <button type="reset">초기화</button>
+    <!--iconfinder.com 아이콘 다운 사이트-->
+    <button><img src="../favicon.ico" alt="image"></button>
+    <input type="image" src="../favicon.ico" alt="image">
+</p>
+    </form>
+
+    <hr>    <!--간단히 진행률 보여주는 방법-->
+    <meter value="3" max="10" min="0"></meter>
+    <progress value="3" max="10" min="0"></progress>
+    
+
+</body>
+</html>
