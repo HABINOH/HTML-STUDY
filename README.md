@@ -12,6 +12,10 @@ video : video, iframe, audio
 
 anchor : a, img, map
 
+form : form, fildset(legend), label, input, select, optgroup(option), button, meter, progress
+
+join : h1
+
 </pre>
 <pre>
 HTML 학습 내용을 정리하는 곳이다.
@@ -36,6 +40,7 @@ Notion으로 정리한 것을 올림.
 17. HTML 자바 스크립트
 18. HTML 헤드요소
 19. HTML 레이아웃 요소 및 기술
+20. HTML 컴퓨터 코드 (coding)
 
 </pre>
 
